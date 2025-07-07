@@ -41,7 +41,8 @@ button {
   color: #2e2f42;
 }
 .nav-menu-link:hover,
-nav-menu-link:focus {
+.nav-menu-link:focus,
+.nav-menu-link:active {
   color: #404bbf;
 }
 .header-contacts {
@@ -54,7 +55,8 @@ nav-menu-link:focus {
   color: #434455;
 }
 .header-contacts-link:hover,
-.header-contacts-link:focus .header-contacts-link:active {
+.header-contacts-link:focus,
+.header-contacts-link:active {
   color: #404bbf;
 }
 .hero {
@@ -103,9 +105,9 @@ nav-menu-link:focus {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
   color: #2e2f42;
-  text-transform:capitalize;
+  text-transform: capitalize;
 }
 .team-list {
   background-color: #fff;
@@ -155,7 +157,7 @@ nav-menu-link:focus {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
