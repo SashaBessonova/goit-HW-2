@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434445;
+  color: #434455;
   background-color: #ffffff;
   letter-spacing: 0.02em;
 }
@@ -20,7 +20,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -29,7 +29,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -54,7 +54,7 @@ nav-menu-link:focus {
   color: #434455;
 }
 .header-contacts-link:hover,
-.header-contacts-link:focus {
+.header-contacts-link:focus .header-contacts-link:active {
   color: #404bbf;
 }
 .hero {
@@ -63,10 +63,12 @@ nav-menu-link:focus {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
   color: #fff;
 }
+
 .hero-btn {
   font-weight: 500;
   font-size: 16px;
@@ -84,6 +86,7 @@ nav-menu-link:focus {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .benefits-dscr {
@@ -98,9 +101,11 @@ nav-menu-link:focus {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em
   color: #2e2f42;
+  text-transform:capitalize;
 }
 .team-list {
   background-color: #fff;
@@ -113,6 +118,7 @@ nav-menu-link:focus {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .team-position {
   font-weight: 400;
@@ -123,15 +129,18 @@ nav-menu-link:focus {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .portfolio-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .portfolio-list-text {
   font-weight: 400;
@@ -155,7 +164,7 @@ nav-menu-link:focus {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
